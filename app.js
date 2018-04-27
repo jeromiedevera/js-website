@@ -15,7 +15,7 @@ function randGold(q){
   let rm = 0;
   // Check if it is sq, lq, or bf
   if (q === `sq`){
-    rm = Math.floor(Math.random()*20) + 10;
+    rm = Math.floor(Math.random()*10) + 10;
   }
   else if (q === `lq`){
     rm = Math.floor(Math.random()*20) + 30;
