@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quest Game</title>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/lux/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="./index.html">Quest Game</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+      </div>
+    </nav>
+
+    <p></p>
+
+    <div class="container">
+      <div class="card bg-secondary mb-3">
+        <div class="card-body">
+          <div align="center" class="row">
+            <div class="col">
+              <p class="lead">
+                Amount of gold: <span id="cashTotal">0</span>
+              </p>
+            </div>
+          </div>
+          <div align="center" class="row">
+            <div class="col">
+              <div class="card border-light mb-3" style="max-width: 20rem;">
+                <div class="card-header">Small Quest</div>
+                <div class="card-body">
+                  <h5 class="card-title">Earns 10-20 gold</h5>
+                  <p class="card-text">Ezpz quest.</p>
+                  <button id="smallQuest" type="button" class="btn btn-primary btn-lg">Take On Quest</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light mb-3" style="max-width: 20rem;">
+                <div class="card-header">Long Quest</div>
+                <div class="card-body">
+                  <h5 class="card-title">Earns 30-50 gold</h5>
+                  <p class="card-text">Long-ish quest.</p>
+                  <button id="longQuest" type="button" class="btn btn-primary btn-lg">Take On Quest</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light mb-3" style="max-width: 20rem;">
+                <div class="card-header">Boss Fight</div>
+                <div class="card-body">
+                  <h5 class="card-title">Earns 70-100 gold</h5>
+                  <p class="card-text">BOSS FIGHT. PICKEL RIIIIICK!!</p>
+                  <button id="bossFight" type="button" class="btn btn-primary btn-lg">Take On Quest</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
